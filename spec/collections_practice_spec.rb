@@ -67,3 +67,10 @@ describe 'collections practice' do
     end
   end
 end
+
+# Bonus
+#describe '#swap_elements_from_to' do
+ # it 'swaps specified element to a specified index' do
+  #  expect(swap_elements(["blake", "ashley", "scott"], 2, 1)).to eq(["blake", "scott", "ashley"])
+  #end
+#end
