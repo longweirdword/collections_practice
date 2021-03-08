@@ -25,13 +25,9 @@ def reverse_array(array)
     array.reverse
 end 
 def kesha_maker(array)
-    kesha_styled = []
-    array.each do |string|
-        new_array = string.split("")
-        new_array[2] = "$"
-        kesha_styled << new_array.join 
+    array.each_with_index do |string, index|
+        string[2] = "$"
     end 
-    kesha_styled 
 end 
 def find_a(array)
     array.select{|word| word.start_with?("a")}
